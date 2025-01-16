@@ -1,0 +1,139 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.first {
+    color: orange;
+}
+.second{
+    font-weight: bold;
+    color: green;
+}
+.about{
+    font-size: 23px;
+    color: rgb(90, 90, 197);
+}
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 3%;
+}
+.sec-half-width{
+    width: 40%;
+    float: right;
+    margin-right: 5%;
+    padding-right: 5%;
+}
+.half-width img {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+.sec-half-width img{
+    padding:40px;
+    margin:10px;
+    border-radius: 40%;
+    height: 600px;
+    width: 100%;
+}
+.third-section{
+    box-shadow:10px 10px 40px gray;
+    border-radius:10px;
+    height:70%;
+}
+.top-banner {
+    position: relative;
+    background-image: url("image/banner.jpg");
+    background-size: cover;
+    background-position: center;
+}
+section {
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+.btn {
+    text-decoration: none;
+    background-color: rgb(226, 101, 101);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(176, 207, 41);
+}
+.exper{
+    padding:20px;
+    margin:20px;
+    font-size:30px;
+}
+#CP{
+    border-left:5px solid;
+    border-image: linear-gradient(lightSalmon,tomato);
+    border-image-slice: 1;
+}
+#full-stack{
+    border-left:5px solid;
+    border-image: linear-gradient(blue,lightblue);
+    border-image-slice: 1;
+}
+
+
+
+.connect {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+}
+
+.connect h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.connect-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.connect-links a {
+    font-size: 16px;
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #e6e6e6;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.connect-links a:hover {
+    color: #fff;
+    background-color: #0056b3;
+    text-decoration: none;
+}
+
+footer p{
+    text-align:center;
+}
+
+
+
+
