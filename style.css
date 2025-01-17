@@ -137,3 +137,132 @@ footer p{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* General Styles for Mobile and Small Devices */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .about {
+        font-size: 18px;
+    }
+
+    .half-width,
+    .sec-half-width {
+        width: 90%;
+        float: none;
+        margin: 10px auto;
+        padding: 0;
+    }
+
+    .half-width img,
+    .sec-half-width img {
+        height: auto;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    section {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .btn {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    .connect-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .connect-links a {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    .third-section {
+        height: auto;
+        margin: 20px auto;
+    }
+}
+
+/* Styles for Medium Devices (Tablets) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    h1 {
+        font-size: 42px;
+    }
+
+    .about {
+        font-size: 20px;
+    }
+
+    .half-width,
+    .sec-half-width {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .half-width img,
+    .sec-half-width img {
+        height: auto;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .third-section {
+        margin: 30px auto;
+        padding: 15px;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    .connect-links {
+        gap: 15px;
+    }
+}
+
+/* General Fixes for Small Height Devices (Landscape Mode on Mobiles) */
+@media (max-height: 500px) {
+    .top-banner {
+        height: auto;
+        padding: 20px;
+    }
+
+    section {
+        height: auto;
+        padding: 20px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+}
+
+
+
+
+
